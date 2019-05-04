@@ -1,17 +1,18 @@
 <template>
     <div>
-        个人信息
-    <route_com></route_com>
+        
+        <h1>个人信息</h1>
+        
+    <route_list></route_list>
     </div>
 </template>
 
 <script>
-import route_com from '../components/route'
+import route_list from '../components/route_list'
     export default {
         components:{
-            route_com
+            route_list
         },
-        
     }
 </script>
 

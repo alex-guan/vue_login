@@ -13,13 +13,13 @@ app.use(session({
 }))
 
 //私密接口请求数据
-app.get('/', function (req, res) {
-  if(req.session.login){
-    res.send("hello world")
-  }else{
-  res.send(403)
-  }
-})
+  app.get('/', function (req, res) {
+    if(req.session.login){
+      res.send("hello world")
+    }else{
+    res.send(403)
+    }
+  })
 
 //登录接口,更改session状态
 app.get('/login', function (req, res) { 

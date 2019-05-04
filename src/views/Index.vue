@@ -3,15 +3,15 @@
         <h1>主页</h1>
         <Button @click="getTest">敏感接口</Button>
         {{result}}
-      <route_com></route_com>
+      <route_list></route_list>
     </div>
 </template>
 
 <script>
-import route_com from '../components/route'
+import route_list from '../components/route_list'
     export default {
         components:{
-            route_com
+            route_list
         },
         data(){
             return{

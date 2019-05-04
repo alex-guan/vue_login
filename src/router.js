@@ -4,9 +4,7 @@ import store from './store'
 import Layout from './layouts/IndexLayout.vue'
 import Login from './views/Login.vue'
 import Logout from './views/Logout.vue'
-
 import Index from './views/Index.vue'
-import Signin from './views/Signin.vue'
 import Me from './views/me.vue'
 Vue.use(Router)
 
@@ -33,11 +31,7 @@ const router = new Router({
       component:Logout,
       name:'logout'
     },
-    {
-      path:'/signin',
-      component:Signin,
-      name:'signin'
-    },
+
     {
       path:'/me',
       component:Me,

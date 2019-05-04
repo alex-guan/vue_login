@@ -1,6 +1,6 @@
 <template>
     <div>
-        布局组件
+        主页布局
         <router-view></router-view>
     </div>
 </template>

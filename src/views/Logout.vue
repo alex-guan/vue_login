@@ -1,16 +1,17 @@
 
 <template>
     <div>
-注销<Button @click="login">注销</Button>
-<route_com></route_com>
+        <h1>注销</h1>
+<Button @click="login">注销</Button>
+<route_list></route_list>
     </div>
 </template>
 
 <script>
-import route_com from '../components/route'
+import route_list from '../components/route_list'
     export default {
         components:{
-            route_com
+            route_list
         },
     data(){
         return{
