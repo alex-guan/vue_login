@@ -1,8 +1,7 @@
-# Vue纯净版开发环境(使用vue-cli@3创建)
+# Vue+Express实现登录状态权限控制
 ## 配置详情:
 ### 前端
-- vue-cli@3初始化配置vuex vue-route less
-- 手动配置axios,iview
+- vuex vue-route axios
 - webpackDev完成代理跨域
 ### 后端
 - express:做后端接口(3000)完成
